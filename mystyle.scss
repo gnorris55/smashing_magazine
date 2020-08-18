@@ -1,0 +1,89 @@
+body
+{
+    background-color: mediumslateblue;
+    font-family: 'Alata', sans-serif;
+}
+
+header
+{
+    .contents
+    {
+        display: grid;
+        background-color: grey;
+        grid-template-columns: repeat(9, auto);
+        margin: 0px;
+        .item
+        {
+            height: 100px;
+            border: lightgray solid 1px;
+            text-align: center; 
+        }   
+    }
+}
+section
+{
+    .latest-articles
+    {
+        .main
+        {
+            position: absolute;
+            text-align: center;
+            left:0;
+            right:0;
+            margin-left:auto;
+            margin-right:auto;
+            font-size: 35px;
+            font-weight: 800;
+
+        }
+        .title-1
+        {
+            top: 250px;
+            width: 400px;
+            background-color: rgb(73, 73, 73);
+        }
+        .title-2
+        {
+            top: 290px;
+            width: 175px;
+            background-color: rgb(73, 73, 73);
+        }
+        .contents
+        {
+            display: grid;
+            grid-template-columns: repeat(2, 50%);
+            grid-template-rows: repeat(2, 50%);
+            .item
+            {
+
+                background-color: rgb(136, 135, 135);
+                height: 600px;
+                border: rgb(92, 92, 92) solid 1px;                
+                p
+                {
+                    color: rgb(65, 65, 65);
+                    font-size: 35px;
+                    text-align: center;
+                    padding-top: 200px;
+                }
+                
+            }
+        }
+    }
+    .latest-posts
+    {
+        .contents
+        {
+            margin-top: 20px;
+            display: grid;
+            grid-template-columns: repeat(3, auto);
+            .item
+            {
+                height: 500px;
+                background-color: lightgrey;
+                border: grey solid 1px;
+            }
+        }
+
+    }
+}
