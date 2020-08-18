@@ -1,0 +1,1 @@
+project on creating the smashing magazine homepage utilizing design hierarchies and css principles
